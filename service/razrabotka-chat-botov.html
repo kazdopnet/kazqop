@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="nkUnZYIl8DhPiBQTkmZnbt7PkbWB8ppcn7NEcUSp">
+
+    
+    <title>Разработка чат ботов</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+
+
+    <link rel="stylesheet" href="../css/libs.min.css">
+    <link rel="stylesheet" href="../css/main.css%3Fv=1.css">
+    <link rel="icon" href="../img/favicon.png">
+    <link rel="stylesheet" href="../custom/css/main.css%3Fv=3.css">
+</head>
+<body class=" white-page ">
+
+<i class="ajax-loader"></i>
+
+<div class="header">
+    <div class="container-fluid">
+        <nav class="navbar">
+            <div class="navbar-header">
+                <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only"> Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="../ru.html">
+                    <img class="logotype" src="../img/logotype/logo.png">
+                </a>
+                <button class="btn btn-blue visible-xs pull-right" type="button" value="Оставить заявку">Оставить заявку</button><i class="icons ic-menu hidden-xs"></i>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav menu">
+
+                    
+                    
+                            <li class="">
+                                <a href="../ru/portfolio.html">Проекты</a>
+                            </li>
+
+                    
+                            <li class="">
+                                <a href="../ru/decision.html">Решения</a>
+                            </li>
+
+                    
+                            <li class="active">
+                                <a href="../ru/services.html">Услуги</a>
+                            </li>
+
+                    
+                            <li class="">
+                                <a href="../ru/client.html">Клиенты</a>
+                            </li>
+
+                    
+                            <li class="">
+                                <a href="../ru/contact.html">Контакты</a>
+                            </li>
+
+                    
+                            <li class="">
+                                <a href="../cabinet.html">Help Desk</a>
+                            </li>
+
+                    
+                </ul>
+                <ul class="nav navbar-nav navbar-right hidden-xs">
+                    <a href="razrabotka-chat-botov.html#request">
+                        <button class="btn btn-blue" type="button" value="Оставить заявку">Оставить заявку</button>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+<div class="in-menu clearfix">
+    <div class="list-menu"><a><i class="icons ic-hide"></i><span>на главную</span></a>
+        <ul class="menu-li">
+
+            
+                <li class="">
+                    <a href="../ru/portfolio.html">Проекты</a>
+                </li>
+
+            
+                <li class="">
+                    <a href="../ru/decision.html">Решения</a>
+                </li>
+
+            
+                <li class="active">
+                    <a href="../ru/services.html">Услуги</a>
+                </li>
+
+            
+                <li class="">
+                    <a href="../ru/client.html">Клиенты</a>
+                </li>
+
+            
+                <li class="">
+                    <a href="../ru/contact.html">Контакты</a>
+                </li>
+
+            
+                <li class="">
+                    <a href="../cabinet.html">Help Desk</a>
+                </li>
+
+            
+        </ul>
+        <div class="bottom-info">
+            <p><a href="tel:+7 708 300 13 12">+7 708 300 13 12</a></p>
+            <p>Алматы, Керемет микрорайон, 1 к6</p>
+            <p><a href="mailto::info@bgpro.kz">info@bgpro.kz</a></p>
+            <p class="copy-right">© 2013–2018, digital-агентство bg.pro</p>
+        </div>
+    </div>
+    <div class="in-order hidden-sm hidden-xs">
+        <p class="title-box">Оставить заявку<span class="grey-text">мы свяжемся с вами, чтобы обсудить детали</span></p>
+        <div class="row form-orders">
+
+            <form id="request_form_second" enctype="multipart/form-data" method="post">
+                <div class="col-md-4">
+                    <input class="form-control user_name" type="text" name="user_name" placeholder="Имя клиента">
+                </div>
+                <div class="col-md-4">
+                    <input class="form-control phone-mask user_phone" name="phone" type="text" placeholder="Телефон">
+                </div>
+                <div class="col-md-4">
+                    <input class="form-control user_email" type="email" name="email" placeholder="Email">
+                </div>
+                <div class="col-md-12">
+                    <textarea class="form-control request_desc" rows="1" name="message" placeholder="Расскажите о вашем проекте"></textarea>
+                </div>
+                <div class="col-md-12 clearfix bottom-form">
+                    <div class="pull-left text-blue">
+                        <input id="upload_second" type="file" name="file"><i class="icons ic-file"></i><span id="upload_label_second">Прикрепить файл</span>
+                    </div>
+                    <button class="btn btn-blue pull-right" type="button" onclick="addRequestSecond(this)">Отправить</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row grey-block top-title">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-offset-1 col-md-10">
+                            <div class="text-center">
+                                <h1 class="title-box">Разработка чат ботов</h1>
+                            </div>
+                            <div>
+                                Разработка чат ботов
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row section-row" id="request">
+    <div class="container">
+        <p class="title-box">Оставить заявку<span class="grey-text">мы свяжемся с вами, чтобы обсудить детали</span></p>
+        <div class="row form-orders">
+            <form id="request_form" enctype="multipart/form-data" method="post">
+                <div class="col-md-4">
+                    <input class="form-control user_name" type="text" name="user_name" placeholder="Имя клиента">
+                </div>
+                <div class="col-md-4">
+                    <input class="form-control phone-mask user_phone" name="phone" type="text" placeholder="Телефон">
+                </div>
+                <div class="col-md-4">
+                    <input class="form-control user_email" type="email" name="email" placeholder="Email">
+                </div>
+                <div class="col-md-12">
+                    <textarea class="form-control request_desc" rows="1" name="message" placeholder="Расскажите о вашем проекте"></textarea>
+                </div>
+                <div class="col-md-12 clearfix bottom-form">
+                    <div class="pull-left text-blue">
+                        <input id="upload" type="file" name="file"><i class="icons ic-file"></i><span id="upload_label">Прикрепить файл</span>
+                    </div>
+                    <button class="btn btn-blue pull-right" type="button" onclick="addRequest(this)">Оставить заявку</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+    
+
+<div class="footer">
+    <div class="container">
+        <ul class="footer-menu">
+
+            
+            
+                <li class="">
+                    <a href="../ru/portfolio.html">Проекты</a>
+                </li>
+
+            
+                <li class="">
+                    <a href="../ru/decision.html">Решения</a>
+                </li>
+
+            
+                <li class="active">
+                    <a href="../ru/services.html">Услуги</a>
+                </li>
+
+            
+                <li class="">
+                    <a href="../ru/client.html">Клиенты</a>
+                </li>
+
+            
+                <li class="">
+                    <a href="../ru/contact.html">Контакты</a>
+                </li>
+
+            
+                <li class="">
+                    <a href="../cabinet.html">Help Desk</a>
+                </li>
+
+            
+        </ul>
+        <span class="lang"><a href="../kz/service/razrabotka-chat-botov.html" class="">KZ</a><a href="../ru/service/razrabotka-chat-botov.html" class="">RU</a><a href="razrabotka-chat-botov.html" class=" active ">EN</a></span>
+
+        <div class="row">
+            <div class="col-md-6 footer-contacts">
+                <a href="tel:+7 708 300 13 12"><span class="gothambold-fonts">+7 708 300 13 12</span></a><a href="mailto::info@bgpro.kz"><span class="gothambold-fonts">info@bgpro.kz</span></a>
+            </div>
+            <div class="col-md-offset-4 col-md-2">
+                <p><a class="grey-text" href="../bgpro_present_2018.pdf" target="_blank">Скачать презентацию компании</a></p>
+                <!-- Yandex.Metrika counter -->
+                <script type="text/javascript" >
+                    (function (d, w, c) {
+                        (w[c] = w[c] || []).push(function() {
+                            try {
+                                w.yaCounter49600636 = new Ya.Metrika2({
+                                    id:49600636,
+                                    clickmap:true,
+                                    trackLinks:true,
+                                    accurateTrackBounce:true,
+                                    webvisor:true
+                                });
+                            } catch(e) { }
+                        });
+
+                        var n = d.getElementsByTagName("script")[0],
+                                s = d.createElement("script"),
+                                f = function () { n.parentNode.insertBefore(s, n); };
+                        s.type = "text/javascript";
+                        s.async = true;
+                        s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+                        if (w.opera == "[object Opera]") {
+                            d.addEventListener("DOMContentLoaded", f, false);
+                        } else { f(); }
+                    })(document, window, "yandex_metrika_callbacks2");
+                </script>
+                <div><img src="https://mc.yandex.ru/watch/49600636" style="position:absolute; left:-9999px;" alt="" /></div>
+                <!-- /Yandex.Metrika counter -->
+                <!-- Global site tag (gtag.js) - Google Analytics -->
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122309952-1"></script>
+                <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+
+                    gtag('config', 'UA-122309952-1');
+                </script>
+            </div>
+        </div>
+        <p class="grey-text">© 2013–2018, digital-агентство bg.pro</p>
+    </div>
+</div>
+<script src="../js/lib.min.js"></script>
+<script src="../js/common.js"></script>
+<script src="../custom/js/custom.js%3Fv=1"></script>
+
+
+</body>
+</html>
