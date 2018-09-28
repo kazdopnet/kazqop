@@ -1,0 +1,27 @@
+User-agent: *
+Disallow: /assets/cache/
+Disallow: /assets/docs/
+Disallow: /assets/export/
+Disallow: /assets/import/
+Disallow: /assets/modules/
+Disallow: /assets/plugins/
+Disallow: /assets/snippets/
+Disallow: /install/
+Disallow: /manager/
+Disallow: /pokazateshhe/
+Disallow: /pokazateshhe/sajt-kompanii-too-professionalnyie-orannyie-sistemyi.html
+Disallow: /pokazateshhe/avtorazbor-subaru.html
+Disallow: /pokazateshhe/sajt-kompanii-vs-servis.html
+Disallow: /pokazateshhe/sajt-kompanii-uni-tech.html
+Disallow: /portfolio-kompanii-dmh.kz/
+Disallow: /portfolio-kompanii-dmh.kz/sajt-kompanii-ac-kapstrojstroj-inzhenering.html
+Disallow: /portfolio-kompanii-dmh.kz/a-texczentr-plyus.html
+Disallow: /portfolio-kompanii-dmh.kz/sajt-kompanii-fonteinnovation.html
+Disallow: /portfolio-kompanii-dmh.kz/sajt-kompanii-jura.kz.html
+Disallow: /portfolio-kompanii-dmh.kz/sajt-kompanii-trustfinance.html
+Disallow: /portfolio-kompanii-dmh.kz/sajt-kompanii-emporium.html
+Disallow: /portfolio-kompanii-dmh.kz/sajt-kompanii-too-nav-group.html
+Disallow: /portfolio-kompanii-dmh.kz/transportnaya-kompaniya-too-batyis-kaz-trans-ekspress-servis.html
+
+Host: dmh.kz
+Sitemap: http://dmh.kz/sitemap.xml
